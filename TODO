@@ -1,0 +1,66 @@
+Initialize the app and add dependencies
+    Meets Expectations:
+        ☐ The node_modules folder is referenced in the .gitignore file and isn't in the repo
+        ☐ Running `npm install` downloads all necessary dependencies
+        ☐ Running `node app.js` serves the app
+
+    Exceeds Expectations:
+        ☐ Running `npm start` serves the apps
+
+Data
+    Meets Expectations:
+        ☐ The `data.json` file is present
+        ☐ The `data.json` file contains a `projects` property set to an array containing at least five objects that each contain the following properties:
+            ☐ ID
+            ☐ project_name
+            ☐ description
+            ☐ technologies
+            ☐ live_link
+            ☐ github_link
+            ☐ images_urls
+
+Routes
+    Meets Expectations: 
+        ☐ The following routes DO render the appropriate pages:
+            ☐ `/` - Home page
+            ☐ `/about` - About page
+            ☐ `/project/:id` or `/projects/:id`
+        ☐ App uses a `static` route to serve the static files in the `public` folder
+
+Templates
+    Meets Expectations:
+        ☐ The following template are present:
+            ☐ layout.pug
+            ☐ index.pug
+            ☐ about.pug
+            ☐ project.pug
+        ☐ Templates have all of the required information as exampled in the provided HTML and mockup files:
+            ☐ name
+            ☐ titles
+            ☐ descriptions
+            ☐ project descriptions
+            ☐ project images
+            ☐ links
+        ☐ Starter comments have been removed from pug files
+
+    Exceeds Expectations:
+        ☐ The `error.pug` template and the `page-not-found.pug` template have been created and added to the views folder
+
+Errors
+    Meets Expectations:
+        ☐ App logs out a user friendly error message to the console when the app is pointed at undefined routes such as `/noroute` and `/project/noroute`
+    Exceeds Expectations:
+        ☐ When the app is pointed at undefined routes such as `/noroute` and `/project/noroute`, the app displays either the `page-not-found` or the `error` template, both of which should display at least the error's `status` and `messgae` properties
+
+Layout, CSS and styles
+    Meets expectations:
+        ☐ Final project's style, layout and positioning matches the example HTML or mockup files
+    Exceeds Expectations:
+        ☐ Project has at least three of the following items customized:
+            ☐ color
+            ☐ background color
+            ☐ box or text shadows
+            ☐ transitions or animations
+            ☐ add a logo
+        ☐ Changes detailed in the README.md file
+        
