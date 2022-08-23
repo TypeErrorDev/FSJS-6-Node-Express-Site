@@ -1,23 +1,23 @@
 Initialize the app and add dependencies
     Meets Expectations:
-        ☐ The node_modules folder is referenced in the .gitignore file and isn't in the repo @started(22-08-23 19:27)
-        ☐ Running `npm install` downloads all necessary dependencies @started(22-08-23 19:27)
-        ☐ Running `node app.js` serves the app @started(22-08-23 19:27)
+        ✔ The node_modules folder is referenced in the .gitignore file and isn't in the repo @started(22-08-23 19:27) @done(22-08-23 20:08) @lasted(41m37s)
+        ✔ Running `npm install` downloads all necessary dependencies @started(22-08-23 19:27) @done(22-08-23 20:08) @lasted(41m41s)
+        ✔ Running `node app.js` serves the app @started(22-08-23 19:27) @done(22-08-23 20:16) @lasted(49m48s)
 
     Exceeds Expectations:
-        ☐ Running `npm start` serves the apps @started(22-08-23 19:27)
+        ✔ Running `npm start` serves the apps @started(22-08-23 19:27) @done(22-08-23 20:18) @lasted(51m49s)
 
 Data
     Meets Expectations:
-        ☐ The `data.json` file is present @started(22-08-23 19:27)
-        ☐ The `data.json` file contains a `projects` property set to an array containing at least five objects that each contain the following properties: @started(22-08-23 19:27)
-            ☐ ID @started(22-08-23 19:27)
-            ☐ project_name @started(22-08-23 19:27)
-            ☐ description @started(22-08-23 19:27)
-            ☐ technologies @started(22-08-23 19:27)
-            ☐ live_link @started(22-08-23 19:27)
-            ☐ github_link @started(22-08-23 19:27)
-            ☐ images_urls @started(22-08-23 19:27)
+        ✔ The `data.json` file is present @started(22-08-23 19:27) @done(22-08-23 20:25) @lasted(58m13s)
+        ✔ The `data.json` file contains a `projects` property set to an array containing at least five objects that each contain the following properties: @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m42s)
+            ✔ ID @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m46s)
+            ✔ project_name @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m46s)
+            ✔ description @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m46s)
+            ✔ technologies @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m46s)
+            ✔ live_link @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m46s)
+            ✔ github_link @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m46s)
+            ✔ images_urls @started(22-08-23 19:27) @done(22-08-23 20:29) @lasted(1h2m46s)
 
 Routes
     Meets Expectations: 
