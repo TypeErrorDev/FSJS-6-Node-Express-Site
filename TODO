@@ -21,11 +21,11 @@ Data
 
 Routes
     Meets Expectations: 
-        ☐ The following routes DO render the appropriate pages: @started(22-08-23 19:27)
-            ☐ `/` - Home page @started(22-08-23 19:27)
-            ☐ `/about` - About page @started(22-08-23 19:27)
-            ☐ `/project/:id` or `/projects/:id` @started(22-08-23 19:27)
-        ☐ App uses a `static` route to serve the static files in the `public` folder @started(22-08-23 19:27)
+        ✔ The following routes DO render the appropriate pages: @started(22-08-23 19:27) @done(22-08-24 17:00) @lasted(21h33m57s)
+            ✔ `/` - Home page @started(22-08-23 19:27) @done(22-08-24 17:00) @lasted(21h33m57s)
+            ✔ `/about` - About page @started(22-08-23 19:27) @done(22-08-24 17:00) @lasted(21h33m57s)
+            ✔ `/project/:id` or `/projects/:id` @started(22-08-23 19:27) @done(22-08-24 17:00) @lasted(21h33m57s)
+        ✔ App uses a `static` route to serve the static files in the `public` folder @started(22-08-23 19:27) @done(22-08-24 17:00) @lasted(21h33m57s)
 
 Templates
     Meets Expectations:

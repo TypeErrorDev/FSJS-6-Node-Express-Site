@@ -6,6 +6,15 @@ const mainRoutes = require("./routes");
 
 appendFile.use(mainRoutes);
 
-router.get("/", (req, res) => {
-  console.log("page 1");
-});
+// // Setting up the root Route
+// app.get("/", (req, res) => {
+//   res.render("index");
+// });
+// app.get("/about", (req, res) => {
+//   res.render("about");
+// });
+// app.get("/project:id", (req, res) => {
+//   res.render("project");
+// });
+
+module.exports = router;

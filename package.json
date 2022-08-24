@@ -19,6 +19,7 @@
   "homepage": "https://github.com/TypeErrorDev/FSJS-6-Node-Express-Site#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "nodemon": "^2.0.19",
     "pug": "^3.0.2"
   }
 }
