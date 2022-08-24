@@ -7,7 +7,7 @@
       "techonologies": ["TypeScript, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": ["/mockups/Employee-Dashboard.png"]
+      "image_link": ["/public/res/APIEmployeeDatabase.png"]
     },
     {
       "id": 1,

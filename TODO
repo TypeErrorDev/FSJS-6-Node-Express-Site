@@ -50,7 +50,7 @@ Errors
     Meets Expectations:
         ☐ App logs out a user friendly error message to the console when the app is pointed at undefined routes such as `/noroute` and `/project/noroute` @started(22-08-23 19:27)
     Exceeds Expectations:
-        ☐ When the app is pointed at undefined routes such as `/noroute` and `/project/noroute`, the app displays either the `page-not-found` or the `error` template, both of which should display at least the error's `status` and `messgae` properties @started(22-08-23 19:27)
+        ☐ When the app is pointed at undefined routes such as `/noroute` and `/project/noroute`, the app displays either the `page-not-found` or the `error` template, both of which should display at least the error's `status` and `message` properties @started(22-08-23 19:27)
 
 Layout, CSS and styles
     Meets expectations:
