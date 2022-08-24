@@ -16,7 +16,7 @@ router.get("/about", (req, res, next) => {
 });
 
 // Routes to the Projects Page
-router.get("/project/:id", (req, res, next) => {
+router.get("/project:id", (req, res, next) => {
   if (projects[req.params.id]) {
     res.render("project", {
       project: projects[req.params.id],
