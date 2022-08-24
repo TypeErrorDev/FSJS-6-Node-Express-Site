@@ -1,6 +1,6 @@
 const express = require("express");
 // const routes = require("./routes");
-const { projects } = require("./data/data.json");
+const { projects } = require("./data/projects.json");
 const app = express();
 
 // Allows exress to use the Public folder as a Static folder
@@ -25,8 +25,8 @@ app.get("/about", (req, res) => {
 // Routes to the Projects Page
 app.get("/project:id", (req, res) => {
   if (projects[req.params.id]) {
-    res.render("project", {
-      project: projects[req.params.id],
+    res.render("projects", {
+      projects: projects[req.params.id],
     });
   } else {
     next();

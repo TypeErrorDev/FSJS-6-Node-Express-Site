@@ -15,9 +15,9 @@ block content
     .projects-box.box.grid
       each project in projects
         .cell
-          a(href=`/projects:${project.id}`)
-            img.thumbnail(src=`${project.image_link[0]}`, alt=`${project.description}`)
-            h5= `${project.project_name}`
+          a(href=`/projects:${projects.id}`)
+            img.thumbnail(src=`${projects.image_link[0]}`, alt=`${projects.description}`)
+            h5= `${projects.project_name}`
 
 
       
