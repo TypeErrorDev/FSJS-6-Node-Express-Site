@@ -10,12 +10,11 @@ block content
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nemo quasi odio, sit iste reiciendis tempore corrupti, qui reprehenderit impedit aliquid quam vitae, explicabo commodi? Dolor exercitationem sed ut ullam.Impedit fugiat nobis accusantium doloribus suscipit quaerat modi id sit laboriosam consequatur fugit, possimus placeat vitae quod cum fuga provident laborum ducimus autem, at quia aperiam quae necessitatibus! Porro, consequuntur.
 
-
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each project in projects
         .cell
-          a(href=`/projects/${project.id}`)
+          a(href=`/project/${project.id}`)
             img.thumbnail(src=`${project.image_link[0]}`, alt=`${project.description}`)
             h5= `${project.project_name}`
 
