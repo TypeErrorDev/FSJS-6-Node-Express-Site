@@ -14,11 +14,7 @@ block content
     .projects-box.box.grid
       each project in projects
         .cell
-<<<<<<< HEAD
           a(href=`/project/${project.id}`)
-=======
-          a(href=`/projects:${project.id}`)
->>>>>>> parent of 70d19a0 (FIX: project to projects)
             img.thumbnail(src=`${project.image_link[0]}`, alt=`${project.description}`)
             h5= `${project.project_name}`
 
