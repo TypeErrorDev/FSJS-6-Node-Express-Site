@@ -1,8 +1,10 @@
 const express = require("express");
 const app = express();
+const path = require("path");
 
 // Allows exress to use the Public folder as a Static folder
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(path.join(__dirname + "/public")));
+// app.use("/static", express.static("public"));
 
 // Allows express to use pug templates
 app.set("view engine", "pug");
