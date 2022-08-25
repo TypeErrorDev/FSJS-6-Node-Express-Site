@@ -4,7 +4,7 @@
       "id": 0,
       "project_name": "Project 1",
       "description": "This is project 1",
-      "techonologies": ["TypeScript, Angular, Node, Express"],
+      "technologies": ["TypeScript, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
       "image_link": [
@@ -16,7 +16,7 @@
       "id": 1,
       "project_name": "Project 2",
       "description": "This is project 2",
-      "techonologies": ["React, Angular, Node, Express"],
+      "technologies": ["React, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
       "image_link": ["../static/res/APIEmployeeDatabase.png"]
@@ -25,7 +25,7 @@
       "id": 2,
       "project_name": "Project 3",
       "description": "This is project 3",
-      "techonologies": ["SASS, Angular, Node, Express"],
+      "technologies": ["SASS, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
       "image_link": ["../static/res/APIEmployeeDatabase.png"]
@@ -34,7 +34,7 @@
       "id": 3,
       "project_name": "Project 4",
       "description": "This is project 4",
-      "techonologies": ["LESS, Angular, Node, Express"],
+      "technologies": ["LESS, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
       "image_link": ["../static/res/APIEmployeeDatabase.png"]
@@ -43,7 +43,7 @@
       "id": 4,
       "project_name": "Project 5",
       "description": "This is project 5",
-      "techonologies": ["CoffeeScript, Angular, Node, Express"],
+      "technologies": ["CoffeeScript, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
       "image_link": ["../static/res/APIEmployeeDatabase.png"]
