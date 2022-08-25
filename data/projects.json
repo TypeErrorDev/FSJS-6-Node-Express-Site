@@ -7,7 +7,10 @@
       "techonologies": ["TypeScript, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": ["../public/res/APIEmployeeDatabase.png"]
+      "image_link": [
+        "../static/res/APIEmployeeDatabase.png",
+        "../static/res/AvatarMaker.png"
+      ]
     },
     {
       "id": 1,
@@ -16,9 +19,7 @@
       "techonologies": ["React, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": [
-        "https://www.matthewpantel.com/images/projects/project1.png"
-      ]
+      "image_link": ["../static/res/APIEmployeeDatabase.png"]
     },
     {
       "id": 2,
@@ -27,9 +28,7 @@
       "techonologies": ["SASS, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": [
-        "https://www.matthewpantel.com/images/projects/project1.png"
-      ]
+      "image_link": ["../static/res/APIEmployeeDatabase.png"]
     },
     {
       "id": 3,
@@ -38,9 +37,7 @@
       "techonologies": ["LESS, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": [
-        "https://www.matthewpantel.com/images/projects/project1.png"
-      ]
+      "image_link": ["../static/res/APIEmployeeDatabase.png"]
     },
     {
       "id": 4,
@@ -49,9 +46,7 @@
       "techonologies": ["CoffeeScript, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": [
-        "https://www.matthewpantel.com/images/projects/project1.png"
-      ]
+      "image_link": ["../static/res/APIEmployeeDatabase.png"]
     }
   ]
 }

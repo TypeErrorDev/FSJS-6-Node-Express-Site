@@ -1,0 +1,6 @@
+extends layout 
+
+block main 
+    section.error 
+        h1= `${error.message} - Status: ${error.status}`
+        a(href='/') Home &rarr;

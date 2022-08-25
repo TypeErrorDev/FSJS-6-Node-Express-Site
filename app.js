@@ -1,17 +1,20 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
 const app = express();
 const path = require("path");
 
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
+
 // Allows exress to use the Public folder as a Static folder
-app.use(express.static(path.join(__dirname + "/public")));
-// app.use("/static", express.static("public"));
+app.use("/static", express.static("public"));
 
 // Allows express to use pug templates
 app.set("view engine", "pug");
 
 // Allows express to use the routes folder
 const routes = require(".");
-
 app.use(routes);
 
 // Turn on Express server
