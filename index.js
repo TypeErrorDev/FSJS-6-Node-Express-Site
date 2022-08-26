@@ -17,12 +17,15 @@ router.get("/about", (req, res, next) => {
 
 // Routes to the Projects Page
 router.get("/projects/:id", (req, res, next) => {
-  if (projects[req.params.id]) {
-    res.render("projects", {
-      projects: projects[req.params.id],
-    });
+  const projectId = req.params.id;
+  const project = projects.find(({ id }) => id === +projectId);
+  if (project) {
+    res.render("projects", { project });
   } else {
-    next();
+    const err = new Error("not found");
+    err.status = 404;
+    err.message = `Looks like the quote you requested doesn't exist`;
+    res.render("error", { err });
   }
 });
 

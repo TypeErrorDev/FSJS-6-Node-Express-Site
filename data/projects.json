@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Project 1",
+      "project_name": "Guessing Game",
       "description": "This is project 1",
       "technologies": ["TypeScript, Angular, Node, Express"],
       "live_link": "https://www.matthewpantel.com",
