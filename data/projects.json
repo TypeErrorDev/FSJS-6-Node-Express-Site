@@ -3,50 +3,59 @@
     {
       "id": 0,
       "project_name": "Guessing Game",
-      "description": "This is project 1",
-      "technologies": ["TypeScript, Angular, Node, Express"],
-      "live_link": "https://www.matthewpantel.com",
-      "github_link": "https://github.com/TypeErrorDev/",
+      "description": "This application is called the Phrase Hunter. It is a game where the user tries to guess a phrase by selecting letters from an onscreen keyboard.",
+      "technologies": ["Javascript, HTML, CSS"],
+      "live_link": "https://typeerrordev-fsjs-guessing-game.netlify.app/",
+      "github_link": "https://github.com/TypeErrorDev/FSJS-4-GameShow-App",
       "image_link": [
-        "../static/res/APIEmployeeDatabase.png",
-        "../static/res/AvatarMaker.png"
+        "../static/res/guessingGame_1.png",
+        "../static/res/guessingGame_2.png"
       ]
     },
     {
       "id": 1,
-      "project_name": "Project 2",
-      "description": "This is project 2",
-      "technologies": ["React, Angular, Node, Express"],
-      "live_link": "https://www.matthewpantel.com",
+      "project_name": "API Employee Dashboard",
+      "description": "In this project, I used the Random User Generator API (https://randomuser.me/) to grab information for 12 random employees, and used that data to build a prototype for an Awesome Startup employee directory.",
+      "technologies": ["Javascript, HTML, CSS, API's"],
+      "live_link": "https://typeerrordev-fsjs-employee-api.netlify.app/",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": ["../static/res/APIEmployeeDatabase.png"]
+      "image_link": ["../static/res/api_1.png", "../static/res/api_2.png"]
     },
     {
       "id": 2,
-      "project_name": "Project 3",
-      "description": "This is project 3",
-      "technologies": ["SASS, Angular, Node, Express"],
+      "project_name": "Portfolio",
+      "description": "This is my portofilo website. It is a static website that I built using tailwinds and Javascripts.",
+      "technologies": ["TailwindsCSS, JavaScript, HTML"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": ["../static/res/APIEmployeeDatabase.png"]
+      "image_link": [
+        "../static/res/portfolio_1.png",
+        "../static/res/portfolio_2.png"
+      ]
     },
     {
       "id": 3,
-      "project_name": "Project 4",
-      "description": "This is project 4",
-      "technologies": ["LESS, Angular, Node, Express"],
-      "live_link": "https://www.matthewpantel.com",
-      "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": ["../static/res/APIEmployeeDatabase.png"]
+      "project_name": "Pagination",
+      "description": "In this project, I used a common web development technique known as “pagination” to enhance the usability of a web page. ",
+      "technologies": ["API's, JavaScript, CSS"],
+      "live_link": "https://typeerrordev-fsjs-pagination.netlify.app/",
+      "github_link": "https://github.com/TypeErrorDev/FSJS-2-Pagination-Project",
+      "image_link": [
+        "../static/res/pagination_1.png",
+        "../static/res/pagination_2.png"
+      ]
     },
     {
       "id": 4,
-      "project_name": "Project 5",
-      "description": "This is project 5",
+      "project_name": "Registration Form Validation",
+      "description": "In this project, I used JavaScript to enhance and validate an interactive registration form for a fictional Full Stack conference.",
       "technologies": ["CoffeeScript, Angular, Node, Express"],
-      "live_link": "https://www.matthewpantel.com",
+      "live_link": "https://fsjs-interactive-form.netlify.app",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": ["../static/res/APIEmployeeDatabase.png"]
+      "image_link": [
+        "../static/res/formValidation_1.png",
+        "../static/res/formValidation_2.png"
+      ]
     }
   ]
 }

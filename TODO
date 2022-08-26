@@ -29,19 +29,19 @@ Routes
 
 Templates
     Meets Expectations:
-        ☐ The following template are present: @started(22-08-23 19:27)
-            ☐ layout.pug @started(22-08-23 19:27)
-            ☐ index.pug @started(22-08-23 19:27)
-            ☐ about.pug @started(22-08-23 19:27)
-            ☐ project.pug @started(22-08-23 19:27)
-        ☐ Templates have all of the required information as exampled in the provided HTML and mockup files: @started(22-08-23 19:27)
-            ☐ name @started(22-08-23 19:27)
-            ☐ titles @started(22-08-23 19:27)
-            ☐ descriptions @started(22-08-23 19:27)
-            ☐ project descriptions @started(22-08-23 19:27)
-            ☐ project images @started(22-08-23 19:27)
-            ☐ links @started(22-08-23 19:27)
-        ☐ Starter comments have been removed from pug files @started(22-08-23 19:27)
+        ✔ The following template are present: @started(22-08-23 19:27) @done(22-08-27 00:02) @lasted(3d4h35m55s)
+            ✔ layout.pug @started(22-08-23 19:27) @done(22-08-27 00:02) @lasted(3d4h35m55s)
+            ✔ index.pug @started(22-08-23 19:27) @done(22-08-27 00:02) @lasted(3d4h35m55s)
+            ✔ about.pug @started(22-08-23 19:27) @done(22-08-27 00:02) @lasted(3d4h35m55s)
+            ✔ project.pug @started(22-08-23 19:27) @done(22-08-27 00:02) @lasted(3d4h35m55s)
+        ✔ Templates have all of the required information as exampled in the provided HTML and mockup files: @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
+            ✔ name @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
+            ✔ titles @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
+            ✔ descriptions @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
+            ✔ project descriptions @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
+            ✔ project images @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
+            ✔ links @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
+        ✔ Starter comments have been removed from pug files @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
 
     Exceeds Expectations:
         ☐ The `error.pug` template and the `page-not-found.pug` template have been created and added to the views folder @started(22-08-23 19:27)
@@ -54,7 +54,7 @@ Errors
 
 Layout, CSS and styles
     Meets expectations:
-        ☐ Final project's style, layout and positioning matches the example HTML or mockup files @started(22-08-23 19:27)
+        ✔ Final project's style, layout and positioning matches the example HTML or mockup files @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m53s)
     Exceeds Expectations:
         ☐ Project has at least three of the following items customized: @started(22-08-23 19:27)
             ☐ color @started(22-08-23 19:27)
