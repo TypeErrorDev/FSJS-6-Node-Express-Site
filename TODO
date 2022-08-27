@@ -44,7 +44,7 @@ Templates
         ✔ Starter comments have been removed from pug files @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m45s)
 
     Exceeds Expectations:
-        ☐ The `error.pug` template and the `page-not-found.pug` template have been created and added to the views folder @started(22-08-23 19:27)
+        ✔ The `error.pug` template and the `page-not-found.pug` template have been created and added to the views folder @started(22-08-23 19:27) @done(22-08-27 13:42) @lasted(3d18h15m37s)
 
 Errors
     Meets Expectations:
