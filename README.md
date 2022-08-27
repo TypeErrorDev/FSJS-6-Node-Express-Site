@@ -20,25 +20,19 @@ For this project, I will be creating a gorgeous portfolio site to showcase the g
 
 ### The challenge
 
-In this project, I have created a JSON file to store all of my projects data.
+In this project, I have created a JSON file to store all of my projects object informations.
 
 I also used Pug to complete provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser.
 
-I used Node.js and Express to:
+I used Pug Templates, Node.js and Express to:
 
+- Used `npm start` to start the server
 - Import the required dependencies
 - Link the JSON with the Pug templates
 - Set up routes to handle requests
-- Set up the middleware to utilize static files like CSS
-- Handle errors
-- Set up a server to serve the project
-
-### Future plans
-
-I will be adding the following features in the next iteration of updates:
-
-- List/Grid view
-- Custom results displayed
+- Set up the middleware to utilize static files like CSS and Images
+- Handle errors (404's, 500's)
+- Set up a Express Server to serve the project
 
 ### Links
 
@@ -50,11 +44,17 @@ I will be adding the following features in the next iteration of updates:
 
 - [Javascript](https://262.ecma-international.org/13.0/#sec-intro) - ES6
 - [Node.js](https://nodejs.org/en/) - v18.7.0
-- [Express](https://expressjs.com/) -
+- [Express](https://expressjs.com/) - ^4.18.1
+- [Pug](https://pugjs.org/) - ^3.0.2
+- [Body-Parser](https://www.npmjs.com/package/body-parser) - ^1.20.0
+- [Nodemon](https://www.npmjs.com/package/nodemon) - ^2.0./19
 
 ### Style Updates
 
-- Modal was "inspired by the modal from randomuser's API site
+- Added custom CSS to the Error handling routes
+- Modified the image sizes to ensure they are aligned correctly
+- Added an Avatar image
+- Added box shadows to the Error information
 
 ### What I learned
 
