@@ -58,6 +58,13 @@ I used Pug Templates, Node.js and Express to:
 
 ### What I learned
 
+- I learned how to use the Pug Template Engine to generate the markup for the site
+- I learned how to use the Express Server to serve the site
+- I learned how to use the Body Parser to parse the request body
+- I learned how to use the Nodemon to restart the server when changes are made to the project
+- I learned how to use the Node.js Error Handling middleware to handle errors
+- I learned how to use the Node.js Static Middleware to serve static files like CSS and Images
+
 ## Author
 
 - Portfolio - [www.MatthewPantel.com](https://www.matthewpantel.com)
