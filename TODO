@@ -54,7 +54,7 @@ Errors
 
 Layout, CSS and styles
     Meets expectations:
-        ✔ Final project's style, layout and positioning matches the example HTML or mockup files @started(22-08-23 19:27) @done(22-08-27 02:13) @lasted(3d6h46m53s)
+        ☐ Final project's style, layout and positioning matches the example HTML or mockup files @started(22-08-23 19:27)
     Exceeds Expectations:
         ☐ Project has at least three of the following items customized: @started(22-08-23 19:27)
             ☐ color @started(22-08-23 19:27)
@@ -63,4 +63,3 @@ Layout, CSS and styles
             ☐ transitions or animations @started(22-08-23 19:27)
             ☐ add a logo @started(22-08-23 19:27)
         ☐ Changes detailed in the README.md file @started(22-08-23 19:27)
-        

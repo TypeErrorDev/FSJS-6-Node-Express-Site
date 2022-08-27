@@ -1,8 +1,12 @@
-//- extends layout 
+extends layout 
 
-//- block content 
+block content 
+    .error-cards
+       h1= `Server Error Occured`
+       h2= `Server Error Status - ${error.status}`
+       p= `Heres your readable error message: ${error.message}`
 
-//-     section.error-cards
-//-         h1= error.status
-//-         //- h2= error.status 
-//-         //- pre= error.stack
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
