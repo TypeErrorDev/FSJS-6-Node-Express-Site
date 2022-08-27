@@ -1,0 +1,12 @@
+extends layout 
+
+block content 
+  .error-cards
+    h1= `General Error Occured`
+    h2= `The Error Status - ${err.status}`
+    p= `Heres your readable error message: ${err.message}`
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back

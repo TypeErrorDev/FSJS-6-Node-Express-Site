@@ -17,6 +17,6 @@ const routes = require(".");
 app.use(routes);
 
 // Turn on Express server
-app.listen(3000, () => {
-  console.log("This application is running on localhost:3000");
+app.listen(3001, () => {
+  console.log("This application is running on localhost:3001");
 });

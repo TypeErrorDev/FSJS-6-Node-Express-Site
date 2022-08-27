@@ -19,8 +19,9 @@ router.get("/about", (req, res, next) => {
 router.get("/projects/:id", (req, res, next) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
+  const err = new Error();
   if (!project) {
-    res.status(404).render("page-not-found");
+    res.status(404).render("notfound");
     next(err);
   } else {
     res.render("projects", { project });
@@ -29,7 +30,7 @@ router.get("/projects/:id", (req, res, next) => {
 
 // Undefined Error Handler
 router.use((req, res, next) => {
-  res.status(404).render("page-not-found");
+  res.status(404).render("notfound");
   next();
 });
 
