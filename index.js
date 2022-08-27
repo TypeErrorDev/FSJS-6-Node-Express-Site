@@ -22,19 +22,21 @@ router.get("/projects/:id", (req, res, next) => {
   const err = new Error();
   if (!project) {
     res.status(404).render("notfound");
-    next(err);
+    return;
   } else {
     res.render("projects", { project });
+    next();
   }
 });
 
 // Undefined Error Handler
-router.use((req, res, next) => {
-  res.status(404).render("notfound");
-  next();
+router.use((err, req, res, next) => {
+  res.status(404);
+  res.render("notfound");
+  next(err);
 });
 
-// Server Error Handler
+// // Server Error Handler
 router.use((err, req, res, next) => {
   if (err) {
     console.log("Generic Error Handler: ", err);
