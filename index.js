@@ -19,10 +19,10 @@ router.get("/about", (req, res, next) => {
 router.get("/projects/:id", (req, res, next) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
-  const err = new Error();
   if (!project) {
+    const err = new Error("404 Not Found");
     res.status(404).render("notfound");
-    return;
+    next(err);
   } else {
     res.render("projects", { project });
     next();
