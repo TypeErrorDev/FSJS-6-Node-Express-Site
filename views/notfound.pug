@@ -2,11 +2,14 @@ extends layout
 
 block content 
   .error-cards
-    h1= `General Error Occured`
-    h2= `The Error Status - 404`
-    p `Heres your readable error message: #{err.message}`
+    h1 General Error Occured
+    h2 The Error Status - #{error.status}
+    p Heres your readable error message: #{err.message}
 
   nav.nav
     a(href='/')
       span &larr;
       |  Back
+
+
+

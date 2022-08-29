@@ -4,8 +4,7 @@
   "description": "For this project, I will be creating a gorgeous portfolio site to showcase the great projects I've built. The site will contain a mondern landing page, an about page and a series of project pages to show off and detail at my first five projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./app.js localhost 3001"
+    "start": "nodemon ./app.js localhost 3000"
   },
   "repository": {
     "type": "git",
