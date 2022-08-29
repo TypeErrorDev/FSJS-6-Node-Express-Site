@@ -39,7 +39,7 @@ router.use((err, req, res, next) => {
 router.use((err, req, res, next) => {
   console.log(`Holy Moly! Server Error Occured!!`);
   err.message = err.message || `Catastrophic Server Error Occured`;
-  res.status(err.status || 500);
+  res.status(404);
   res.render("error", { error: err });
 });
 
