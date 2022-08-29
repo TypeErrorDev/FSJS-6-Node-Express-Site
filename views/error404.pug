@@ -2,9 +2,10 @@ extends layout
 
 block content 
   .error-cards
-    h1 General Error Occured
-    h2 The Error Status - #{error.status}
-    p Heres your readable error message: #{err.message}
+    h1 Generic Error Occured
+    h2 Generic Error Status - #{error.status}
+    p Want to deep dive into the issue? Heres the stack trace: #{error.message}
+    p This is page: error404.pug
 
   nav.nav
     a(href='/')

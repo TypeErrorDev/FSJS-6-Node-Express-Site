@@ -22,15 +22,16 @@ router.get("/projects/:id", (req, res, next) => {
   if (project) {
     res.render("projects", { project });
     next();
-  } else {
+  } else if (!project) {
+    const err = new Error("Generic Error: Project not found");
     res.status(404);
-    res.send(error404);
+    res.render("error404", { error: err });
   }
 });
 
 // // Server Error Handler
 router.use((err, req, res, next) => {
-  console.log(`Holy Moly! Server Error Occured!! Line 40`);
+  console.log(`DEBUG: ${err}`);
   err.message = `Catastrophic Server Error Occured`;
   res.status(500);
   res.render("error500", { error: err });

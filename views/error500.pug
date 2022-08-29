@@ -1,12 +1,13 @@
 extends layout 
 
 block content 
-    .error-cards
-       h1 Server Error Occured
-       h2 Server Error Status - #{error.status}
-       p Want to deep dive into the issue? Heres the stack trace: #{error.message}
+  .error-cards
+    h1 Server Error Occured
+    h2 Server Error Status - #{error.status}
+    p Want to deep dive into the issue? Heres the stack trace: #{error.message}
+    p This is page: error500.pug
 
-    nav.nav
-      a(href='/')
-        span &larr;
-        |  Back
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
