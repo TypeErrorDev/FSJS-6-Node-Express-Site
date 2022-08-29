@@ -19,28 +19,21 @@ router.get("/about", (req, res, next) => {
 router.get("/projects/:id", (req, res, next) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
-  if (!project) {
-    const err = new Error("404 Not Found");
-    res.status(404);
-    res.send(error);
-  } else {
+  if (project) {
     res.render("projects", { project });
     next();
+  } else {
+    res.status(404);
+    res.send(error404);
   }
-});
-
-// Undefined Error Handler
-router.use((err, req, res, next) => {
-  res.status(404);
-  next(err);
 });
 
 // // Server Error Handler
 router.use((err, req, res, next) => {
-  console.log(`Holy Moly! Server Error Occured!!`);
-  err.message = err.message || `Catastrophic Server Error Occured`;
-  res.status(404);
-  res.render("error", { error: err });
+  console.log(`Holy Moly! Server Error Occured!! Line 40`);
+  err.message = `Catastrophic Server Error Occured`;
+  res.status(500);
+  res.render("error500", { error: err });
 });
 
 // Export the router
