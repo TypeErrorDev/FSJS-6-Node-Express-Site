@@ -7,7 +7,7 @@
       "technologies": ["Javascript, HTML, CSS"],
       "live_link": "https://typeerrordev-fsjs-guessing-game.netlify.app/",
       "github_link": "https://github.com/TypeErrorDev/FSJS-4-GameShow-App",
-      "image_link": [
+      "image_url": [
         "../static/res/guessingGame_1.png",
         "../static/res/guessingGame_2.png"
       ]
@@ -19,7 +19,7 @@
       "technologies": ["Javascript, HTML, CSS, API's"],
       "live_link": "https://typeerrordev-fsjs-employee-api.netlify.app/",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": ["../static/res/api_1.png", "../static/res/api_2.png"]
+      "image_url": ["../static/res/api_1.png", "../static/res/api_2.png"]
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "technologies": ["TailwindsCSS, JavaScript, HTML"],
       "live_link": "https://www.matthewpantel.com",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": [
+      "image_url": [
         "../static/res/portfolio_1.png",
         "../static/res/portfolio_2.png"
       ]
@@ -40,7 +40,7 @@
       "technologies": ["API's, JavaScript, CSS"],
       "live_link": "https://typeerrordev-fsjs-pagination.netlify.app/",
       "github_link": "https://github.com/TypeErrorDev/FSJS-2-Pagination-Project",
-      "image_link": [
+      "image_url": [
         "../static/res/pagination_1.png",
         "../static/res/pagination_2.png"
       ]
@@ -52,7 +52,7 @@
       "technologies": ["CoffeeScript, Angular, Node, Express"],
       "live_link": "https://fsjs-interactive-form.netlify.app",
       "github_link": "https://github.com/TypeErrorDev/",
-      "image_link": [
+      "image_url": [
         "../static/res/formValidation_1.png",
         "../static/res/formValidation_2.png"
       ]
