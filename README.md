@@ -11,6 +11,7 @@ For this project, I will be creating a gorgeous portfolio site to showcase the g
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [How to run the project](#how-to-run-the-project)
   - [Style Updates](#style-updates)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -36,7 +37,7 @@ I used Pug Templates, Node.js and Express to:
 
 ### Links
 
-- Live Site URL: [Express and Nodejs Portfolio hosted by Netlify](...URL...)
+- Live Site URL: [Express and Nodejs Portfolio hosted by Netlify](https://typeerrordev-express-portfolio.netlify.app/)
 
 ## My process
 
@@ -49,12 +50,23 @@ I used Pug Templates, Node.js and Express to:
 - [Body-Parser](https://www.npmjs.com/package/body-parser) - ^1.20.0
 - [Nodemon](https://www.npmjs.com/package/nodemon) - ^2.0./19
 
+### How to run the project
+
+- npm install
+- npm init -y
+- npm install -g nodemon
+- npm install -g pug
+- npm install -g body-parser
+- npm install -g express
+- npm start
+
 ### Style Updates
 
 - Added custom CSS to the Error handling routes
 - Modified the image sizes to ensure they are aligned correctly
 - Added an Avatar image
 - Added box shadows to the Error information
+- Added transition and transform effects to the project cards
 
 ### What I learned
 
