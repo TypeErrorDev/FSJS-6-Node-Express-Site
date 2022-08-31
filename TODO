@@ -48,18 +48,18 @@ Templates
 
 Errors
     Meets Expectations:
-        ☐ App logs out a user friendly error message to the console when the app is pointed at undefined routes such as `/noroute` and `/project/noroute` @started(22-08-23 19:27)
+        ✔ App logs out a user friendly error message to the console when the app is pointed at undefined routes such as `/noroute` and `/project/noroute` @started(22-08-23 19:27) @done(22-08-31 22:19) @lasted(1w1d2h52m5s)
     Exceeds Expectations:
-        ☐ When the app is pointed at undefined routes such as `/noroute` and `/project/noroute`, the app displays either the `page-not-found` or the `error` template, both of which should display at least the error's `status` and `message` properties @started(22-08-23 19:27)
+        ✔ When the app is pointed at undefined routes such as `/noroute` and `/project/noroute`, the app displays either the `page-not-found` or the `error` template, both of which should display at least the error's `status` and `message` properties @started(22-08-23 19:27) @done(22-08-31 22:19) @lasted(1w1d2h52m6s)
 
 Layout, CSS and styles
     Meets expectations:
         ✔ Final project's style, layout and positioning matches the example HTML or mockup files @started(22-08-23 19:27) @done(22-08-27 23:11) @lasted(4d3h44m53s)
     Exceeds Expectations:
-        ☐ Project has at least three of the following items customized: @started(22-08-23 19:27)
+        ✔ Project has at least three of the following items customized: @started(22-08-23 19:27) @done(22-08-31 22:19) @lasted(1w1d2h52m7s)
             ✔ color @started(22-08-23 19:27) @done(22-08-27 23:12) @lasted(4d3h45m4s)
             ☐ background color @started(22-08-23 19:27)
             ✔ box or text shadows @started(22-08-23 19:27) @done(22-08-27 23:12) @lasted(4d3h45m2s)
-            ☐ transitions or animations @started(22-08-23 19:27)
+            ✔ transitions or animations @started(22-08-23 19:27) @done(22-08-31 22:23) @lasted(1w1d2h56m35s)
             ☐ add a logo @started(22-08-23 19:27)
         ✔ Changes detailed in the README.md file @started(22-08-23 19:27) @done(22-08-28 15:55) @lasted(4d20h28m46s)

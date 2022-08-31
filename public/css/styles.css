@@ -360,10 +360,18 @@ nav a span {
 
   .cell {
     margin: 0 0 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  .cell:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 2px 8px #393939;
   }
 
   .cell h5 {
     font-size: 1.25rem;
+    text-align: center;
+
+    padding: 15px;
   }
 
   .grid {
