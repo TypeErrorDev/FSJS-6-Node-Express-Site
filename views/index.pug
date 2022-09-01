@@ -4,12 +4,12 @@ block content
 
   article.portfolio-intro
     h1 My Full Stack Portfolio 
-    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nemo quasi odio, sit iste reiciendis tempore corrupti, qui reprehenderit impedit aliquid quam vitae, explicabo commodi? Dolor exercitationem sed ut ullam.Impedit fugiat nobis accusantium doloribus suscipit quaerat modi id sit laboriosam consequatur fugit, possimus placeat vitae quod cum fuga provident laborum ducimus autem, at quia aperiam quae necessitatibus! Porro, consequuntur.
+    p Welcome to my portfolio. I am a full stack web developer with a passion for creating beautiful, responsive websites.
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each project in projects
         .cell
           a(href=`/projects/${project.id}`)
-            img.thumbnail(src=`${project.image_link[0]}`, alt=`${project.description}`)
+            img.thumbnail(src=`${project.image_url[0]}`, alt=`${project.description}`)
             h5= `${project.project_name}`

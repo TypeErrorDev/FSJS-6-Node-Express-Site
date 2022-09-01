@@ -10,21 +10,21 @@ block content
   article.portfolio-projects
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
-        h1= `${project.project_name}`
-        p= `${project.description}`
+        h1= `${projects.project_name}`
+        p= `${projects.description}`
 
       .project-tech-links-box.box
-        h6= `${project.technologies}`
+        h6= `${projects.technologies}`
         ul
-          each technology in project.technologies
+          each technology in `${projects.technologies}`
             li= technology
             
         a.btn-link(href=`${live_link}`) Live Demo
         a.btn-link(href=`${github_link}`) GitHub Repo
 
     .project-img-box.box
-      img.project-img(src=`${project.image_link[0]}`, alt=`${project.project_name}`)
-      img.project-img(src=`${project.image_link[1]}`, alt=`${project.project_name}`)
+      img.project-img(src=`#{projects.image_url[0]}`, alt=`${projects.project_name}`)
+      img.project-img(src=`#{projects.image_url[1]}`, alt=`${projects.project_name}`)
 
 
     nav.nav
