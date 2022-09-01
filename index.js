@@ -17,11 +17,11 @@ router.get("/about", (req, res, next) => {
 // Routes to the Projects Page
 router.get("/projects/:id", (req, res, next) => {
   const projectId = req.params.id;
-  const project = projects.find(({ id }) => id === +projectId);
+  const project = projects[projectId];
 
   if (project) {
     console.log(`DEBUG: You are at the project/${projectId} page`);
-    return res.render("projects", { projects });
+    return res.render("projects", { project });
   } else if (!project) {
     console.log(`DEBUG: Failed to find project/${projectId} page`);
     const err = new Error("Generic Error: Page not found");
